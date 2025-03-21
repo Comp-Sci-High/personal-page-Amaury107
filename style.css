@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
 body {
-    background-image: url('https://img.freepik.com/premium-vector/hand-drawn-seamless-pattern-with-cute-yellow-flowers-white-background_646146-9.jpg');
+
+    background-image: url("data:image/jpeg;base64,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");
     font-family: "Madimi One", sans-serif;
     margin: 0;
     padding: 20px;
@@ -15,21 +16,21 @@ header {
 }
 
 h1 {
-    color: #FFB800;
-    background-color: rgba(255, 255, 255, 0.8);
+    color: #FFB890;
+    background-color: rgba(84, 126, 98, 0.8);
     font-size: 48px;
-    text-shadow: 2px 2px #fff;
+    text-shadow: 2px 2px #a76c8e;
 }
 
 h2 {
-    color: #FF9900;
-    border-bottom: 2px dashed #FF9900;
+    color: #3700ff;
+    border-bottom: 2px dashed rgb(0, 4, 255);
     padding-bottom: 5px;
 }
 
 .profile-pic {
     border-radius: 50%;
-    border: 5px solid #FFB800;
+    border: 5px solid #8c00ff;
     width: 200px;
     height: 200px; 
     object-fit: cover;
@@ -62,7 +63,7 @@ ul {
 
 .favorite-item img {
     border-radius: 10px;
-    border: 3px solid #FFB800;
+    border: 3px solid #00aeff;
     width: 200px;
     height: 200px; 
     object-fit: cover;
